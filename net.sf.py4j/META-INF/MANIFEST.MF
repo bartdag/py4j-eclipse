@@ -11,3 +11,4 @@ Export-Package: py4j,
  py4j.examples,
  py4j.model,
  py4j.reflection
+Require-Bundle: org.junit;bundle-version="4.12.0"
