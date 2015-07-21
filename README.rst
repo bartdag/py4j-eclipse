@@ -14,6 +14,18 @@ This is the source repository of Py4J for Eclipse projects. Please visit the
 For help, register and then post to the Py4J mailing list at
 ``py4j-users at lists dot sourceforge dot net``
 
+
+STRUCTURE OF PY4J REPOSITORIES
+==============================
+
+The py4j-eclipse project uses the py4j project as a git submodule to prevent
+duplicating source files. When cloning py4j-eclipse, always include the
+submodules:
+
+.. code-block:: bash
+
+    $ git clone --recursive git@github.com:bartdag/py4j.git
+
 LICENSE
 =======
 
