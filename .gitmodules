@@ -1,0 +1,3 @@
+[submodule "net.sf.py4j/py4j"]
+	path = net.sf.py4j/py4j
+	url = https://github.com/bartdag/py4j.git
