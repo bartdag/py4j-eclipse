@@ -1,5 +1,0 @@
-include setup.py
-include py4j-python/LICENSE.txt
-include py4j-python/nose.cfg
-recursive-include py4j-python/doc *.*
-recursive-include py4j-python/py4j-java *.*
