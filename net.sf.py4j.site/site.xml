@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <description name="Py4J Main Update Site" url="https://eclipse.py4j.org/">
+   <description name="Py4J Main Update Site" url="http://eclipse.py4j.org/">
       Main update site for Py4J
    </description>
-   <feature url="features/net.sf.py4j.defaultserver.feature_0.9.0.201507250537.jar" id="net.sf.py4j.defaultserver.feature" version="0.9.0.201507250537">
+   <feature url="features/net.sf.py4j.defaultserver.feature_0.9.0.201507250628.jar" id="net.sf.py4j.defaultserver.feature" version="0.9.0.201507250628">
       <category name="py4j"/>
    </feature>
-   <feature url="features/net.sf.py4j.feature_0.9.0.201507250537.jar" id="net.sf.py4j.feature" version="0.9.0.201507250537">
+   <feature url="features/net.sf.py4j.feature_0.9.0.201507250628.jar" id="net.sf.py4j.feature" version="0.9.0.201507250628">
       <category name="py4j"/>
    </feature>
    <category-def name="py4j" label="py4j"/>

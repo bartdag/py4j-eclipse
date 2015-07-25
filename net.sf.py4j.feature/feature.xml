@@ -44,7 +44,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    </license>
 
    <url>
-      <update label="Py4J" url="https://eclipse.py4j.org/"/>
+      <update label="Py4J" url="http://eclipse.py4j.org/"/>
       <discovery label="Py4J Home" url="https://www.py4j.org/"/>
       <discovery label="Py4J Issues - To report bugs" url="https://github.com/bartdag/py4j/issues/new"/>
       <discovery label="Py4J Development Blog" url="https://blog.py4j.org/"/>
