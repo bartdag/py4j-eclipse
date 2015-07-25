@@ -9,7 +9,7 @@ plug-ins are installed with Eclipse, you can access the running Eclipse
 instance from Python.
 
 This is the source repository of Py4J for Eclipse projects. Please visit the
-`Py4J homepage <http://www.py4j.org>`_ for more information.
+`Py4J homepage <https://www.py4j.org>`_ for more information.
 
 For help, register and then post to the Py4J mailing list at
 ``py4j-users at lists dot sourceforge dot net``
@@ -38,5 +38,5 @@ CONTRIBUTING
 
 We are always happy to receive code contributions, bug reports, and
 documentation fixes. Please visit the `contributing guide
-<http://www.py4j.org/contributing.html>`_ for more
+<https://www.py4j.org/contributing.html>`_ for more
 information.

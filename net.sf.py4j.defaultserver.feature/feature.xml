@@ -5,7 +5,7 @@
       version="0.9.0.qualifier"
       provider-name="Py4J">
 
-   <description url="http://www.py4j.org/">
+   <description url="https://www.py4j.org/">
       Py4J enables Python programs running in a Python interpreter
 to dynamically access Java objects residing in a Java Virtual
 Machine. Methods are called as if the Java objects resided in
@@ -57,10 +57,10 @@ POSSIBILITY OF SUCH DAMAGE.
    </license>
 
    <url>
-      <update label="Py4J" url="http://www.py4j.org/py4j_eclipse"/>
-      <discovery label="Py4J Home" url="http://www.py4j.org/"/>
+      <update label="Py4J" url="https://eclipse.py4j.org/"/>
+      <discovery label="Py4J Home" url="https://www.py4j.org/"/>
       <discovery label="Py4J Issues - To report bugs" url="https://github.com/bartdag/py4j/issues/new"/>
-      <discovery label="Py4J Development Blog" url="http://blog.py4j.org/"/>
+      <discovery label="Py4J Development Blog" url="https://blog.py4j.org/"/>
    </url>
 
    <requires>
