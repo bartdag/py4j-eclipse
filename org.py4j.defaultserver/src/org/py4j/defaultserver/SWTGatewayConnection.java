@@ -1,4 +1,4 @@
-package net.sf.py4j.defaultserver;
+package org.py4j.defaultserver;
 
 import java.io.IOException;
 import java.net.Socket;
@@ -57,7 +57,7 @@ public class SWTGatewayConnection extends GatewayConnection {
 			logger.log(Level.WARNING,
 					"Error occurred while waiting for a command.", e);
 			if (executing && writer != null) {
-				quietSendError(writer, e);
+				quietSendFatalError(writer, e);
 			}
 		} finally {
 			NetworkUtil.quietlyClose(socket);

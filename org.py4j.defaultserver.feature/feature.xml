@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="net.sf.py4j.defaultserver.feature"
+      id="org.py4j.defaultserver.feature"
       label="Py4J Default Server"
-      version="0.9.0.qualifier"
+      version="1.0.0.qualifier"
       provider-name="Py4J">
 
    <description url="https://www.py4j.org/">
@@ -55,11 +55,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
    </url>
 
    <requires>
-      <import feature="net.sf.py4j.feature" version="0.8.0.qualifier"/>
+      <import feature="org.py4j.feature" version="0.10.6"/>
    </requires>
 
    <plugin
-         id="net.sf.py4j.defaultserver"
+         id="org.py4j.defaultserver"
          download-size="0"
          install-size="0"
          version="0.0.0"

@@ -1,4 +1,4 @@
-package net.sf.py4j.defaultserver;
+package org.py4j.defaultserver;
 
 import org.eclipse.ui.IStartup;
 
