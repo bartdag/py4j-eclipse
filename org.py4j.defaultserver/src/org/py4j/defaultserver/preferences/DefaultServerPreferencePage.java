@@ -1,6 +1,4 @@
-package net.sf.py4j.defaultserver.preferences;
-
-import net.sf.py4j.defaultserver.DefaultServerActivator;
+package org.py4j.defaultserver.preferences;
 
 import org.eclipse.core.commands.ExecutionEvent;
 import org.eclipse.core.runtime.IStatus;
@@ -21,6 +19,7 @@ import org.eclipse.ui.IWorkbenchCommandConstants;
 import org.eclipse.ui.IWorkbenchPreferencePage;
 import org.eclipse.ui.PlatformUI;
 import org.eclipse.ui.commands.ICommandService;
+import org.py4j.defaultserver.DefaultServerActivator;
 
 /**
  * This class represents a preference page that is contributed to the
@@ -105,7 +104,7 @@ public class DefaultServerPreferencePage extends FieldEditorPreferencePage
 							.executeWithChecks(new ExecutionEvent());
 				} catch (Throwable t) {
 					Status status = new Status(IStatus.ERROR,
-							"net.sf.py4j.defaultserver", "Unable to restart", t);
+							"org.py4j.defaultserver", "Unable to restart", t);
 					ErrorDialog.openError(
 							Display.getDefault().getActiveShell(),
 							"Unable to restart",

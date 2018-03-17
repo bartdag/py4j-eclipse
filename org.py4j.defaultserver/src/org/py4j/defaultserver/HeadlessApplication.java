@@ -1,13 +1,13 @@
-package net.sf.py4j.defaultserver;
+package org.py4j.defaultserver;
 
 import java.util.concurrent.CountDownLatch;
 
 import org.eclipse.equinox.app.IApplication;
 import org.eclipse.equinox.app.IApplicationContext;
 
-import py4j.GatewayConnection;
 import py4j.GatewayServer;
 import py4j.GatewayServerListener;
+import py4j.Py4JServerConnection;
 
 public class HeadlessApplication implements IApplication, GatewayServerListener {
 	
@@ -60,20 +60,20 @@ public class HeadlessApplication implements IApplication, GatewayServerListener 
 	}
 
 	@Override
-	public void connectionStarted(GatewayConnection gatewayConnection) {
-		
-	}
-
-	@Override
-	public void connectionStopped(GatewayConnection gatewayConnection) {
-		
-	}
-
-	@Override
 	public void connectionError(Exception e) {
 		
 	}
-	
-	
+
+	@Override
+	public void connectionStarted(Py4JServerConnection gatewayConnection) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void connectionStopped(Py4JServerConnection gatewayConnection) {
+		// TODO Auto-generated method stub
+		
+	}
 
 }

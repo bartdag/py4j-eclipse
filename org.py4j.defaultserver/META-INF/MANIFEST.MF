@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Py4J Default Server
+Bundle-SymbolicName: org.py4j.defaultserver;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.py4j.defaultserver.DefaultServerActivator
+Bundle-Vendor: Py4J
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ui,
+ py4j-java
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Export-Package: org.py4j.defaultserver,
+ org.py4j.defaultserver.preferences

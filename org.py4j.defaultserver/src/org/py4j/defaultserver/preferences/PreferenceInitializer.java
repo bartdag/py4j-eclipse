@@ -1,11 +1,10 @@
-package net.sf.py4j.defaultserver.preferences;
+package org.py4j.defaultserver.preferences;
 
 import org.eclipse.core.runtime.preferences.AbstractPreferenceInitializer;
 import org.eclipse.jface.preference.IPreferenceStore;
+import org.py4j.defaultserver.DefaultServerActivator;
 
 import py4j.GatewayServer;
-
-import net.sf.py4j.defaultserver.DefaultServerActivator;
 
 /**
  * Class used to initialize default preference values.

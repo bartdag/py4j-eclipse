@@ -1,4 +1,4 @@
-package net.sf.py4j.defaultserver.preferences;
+package org.py4j.defaultserver.preferences;
 
 /**
  * Constant definitions for plug-in preferences

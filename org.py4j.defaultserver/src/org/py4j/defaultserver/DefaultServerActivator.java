@@ -1,15 +1,14 @@
-package net.sf.py4j.defaultserver;
+package org.py4j.defaultserver;
 
 import java.io.IOException;
 import java.net.DatagramSocket;
 import java.net.ServerSocket;
 
-import net.sf.py4j.defaultserver.preferences.PreferenceConstants;
-
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.ui.PlatformUI;
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 import org.osgi.framework.BundleContext;
+import org.py4j.defaultserver.preferences.PreferenceConstants;
 
 import py4j.GatewayServer;
 

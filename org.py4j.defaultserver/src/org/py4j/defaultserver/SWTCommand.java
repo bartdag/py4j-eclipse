@@ -1,4 +1,4 @@
-package net.sf.py4j.defaultserver;
+package org.py4j.defaultserver;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -70,7 +70,7 @@ public final class SWTCommand extends CallCommand {
 		// We wait for 5s by default for the method to get to the top of the
 		// stack and return.
 		final int waitTime = Integer.getInteger(
-				"net.sf.py4j.defaultserver.waitTime", 5000);
+				"org.py4j.defaultserver.waitTime", 5000);
 		while (runner.isActive()) {
 			try {
 				Thread.sleep(100);

@@ -4,21 +4,21 @@
    <extension
          point="org.eclipse.ui.startup">
       <startup
-            class="net.sf.py4j.defaultserver.DefaultServerStartup">
+            class="org.py4j.defaultserver.DefaultServerStartup">
       </startup>
    </extension>
    <extension
          point="org.eclipse.ui.preferencePages">
       <page
-            class="net.sf.py4j.defaultserver.preferences.DefaultServerPreferencePage"
-            id="net.sf.py4j.defaultserver.preferences.DefaultServerPreferencePage"
+            class="org.py4j.defaultserver.preferences.DefaultServerPreferencePage"
+            id="org.py4j.defaultserver.preferences.DefaultServerPreferencePage"
             name="Py4J Default Server">
       </page>
    </extension>
    <extension
          point="org.eclipse.core.runtime.preferences">
       <initializer
-            class="net.sf.py4j.defaultserver.preferences.PreferenceInitializer">
+            class="org.py4j.defaultserver.preferences.PreferenceInitializer">
       </initializer>
    </extension>
    <extension
@@ -29,7 +29,7 @@
             thread="main"
             visible="true">
          <run
-               class="net.sf.py4j.defaultserver.HeadlessApplication">
+               class="org.py4j.defaultserver.HeadlessApplication">
          </run>
       </application>
    </extension>
